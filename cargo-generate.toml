@@ -2,9 +2,6 @@
 cargo_generate_version = ">=0.13.1"
 ignore = ["LICENSE", "README.md"]
 
-[hooks]
-post = ["post.rhai"]
-
 [placeholders.url]
 type = "string"
 prompt = "Paste Leetcode problem URL"
